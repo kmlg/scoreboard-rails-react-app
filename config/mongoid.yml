@@ -1,0 +1,16 @@
+development:
+  clients:
+    default:
+      database: scoreboard_development
+      hosts:
+        - 127.0.0.1:27017
+      options:
+        preload_models: false
+test:
+  clients:
+    default:
+      database: scoreboard_test
+      hosts:
+        - 127.0.0.1:27017
+      options:
+        preload_models: false
